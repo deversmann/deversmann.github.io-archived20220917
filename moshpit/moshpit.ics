@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//damien.live/moshpit//NONSGML//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:MOSH>pit w/Damien
+UID:6dd5ea54-2711-4c1f-9155-f6d6b7d48a71
+SEQUENCE:0
+STATUS:CONFIRMED
+RRULE:FREQ=WEEKLY;INTERVAL=1
+DTSTART;TZID=America/Chicago:20200422T120000
+DTEND;TZID=America/Chicago:20200422T130000
+DTSTAMP:20200417T000000Z
+DESCRIPTION:https://www.damien.live/moshpit/join.html \n\nSocial Distancing
+  got you down? Missing the geeky chat from the workplace? Have we got a so
+ lution for you!\n\nJoin Damien in the MOSH>pit...\nMOSH is the Midweek Ope
+ n Source Hour\n...and Damien Eversmann is your host.\n\nGot a question abo
+ ut Red Hat? Bring it!\nWanna talk about enterprise development? We are all
+  ears!\nInterested in the Open Source story? We love telling stories!\n\nT
+ his is not a sales pitch! This is open to all-comers.\nThe goal is to give
+  us all a place to kick back and hang out for an hour and chill.\n\nSo bri
+ ng your lunch and pop in for a minute or chill for the whole hour!\nWe wil
+ l be here every week 12-1 PM CT on Wednesdays.\n\n https://www.damien.live
+ /moshpit/join.html \n\n damien@redhat.com
+URL:https%3A%2F%2Fwww.damien.live%2Fmoshpit%2Fjoin.html
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:MOSH>pit w/Damien
+END:VALARM
+END:VEVENT
+END:VCALENDAR
