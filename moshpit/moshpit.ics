@@ -31,15 +31,15 @@ DTEND;TZID=America/Chicago:20200422T130000
 DTSTAMP:20200417T000000Z
 DESCRIPTION:https://www.damien.live/moshpit/join.html \n\nSocial Distancing
   got you down? Missing the geeky chat from the workplace? Have we got a so
- lution for you!\n\nJoin Damien in the MOSH>pit...\nMOSH is the Midweek Ope
- n Source Hour\n...and Damien Eversmann is your host.\n\nGot a question abo
- ut Red Hat? Bring it!\nWanna talk about enterprise development? We are all
-  ears!\nInterested in the Open Source story? We love telling stories!\n\nT
- his is not a sales pitch! This is open to all-comers.\nThe goal is to give
-  us all a place to kick back and hang out for an hour and chill.\n\nSo bri
- ng your lunch and pop in for a minute or chill for the whole hour!\nWe wil
- l be here every week 12-1 PM CT on Wednesdays.\n\n https://www.damien.live
- /moshpit/join.html \n\n damien@redhat.com
+ lution for you!\n\nJoin Damien in the MOSH>pit...\nMOSH>pit is the Midweek
+  Open Source Hour\n...and Damien Eversmann is your host.\n\nGot a question
+  about Red Hat? Bring it!\nWanna talk about enterprise development? We are
+  all ears!\nInterested in the Open Source story? We love telling stories!\
+ n\nThis is not a sales pitch! This is open to all-comers.\nThe goal is to 
+ give us all a place to kick back and hang out for an hour and chill.\n\nSo
+  bring your lunch and pop in for a minute or chill for the whole hour!\nWe
+  will be here every week 12-1 PM CT on Wednesdays.\n\n https://www.damien.
+ live/moshpit/join.html \n\n damien@redhat.com
 URL:https%3A%2F%2Fwww.damien.live%2Fmoshpit%2Fjoin.html
 BEGIN:VALARM
 TRIGGER:-PT30M
