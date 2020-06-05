@@ -1,0 +1,8 @@
+{% for post in include.posts %}
+{% assign author = site.authors | where: 'short_name', post.author | first %}
+{% assign category = site.category | where: 'tag', post.categories[0] | first %}
+<h3><a class="button small icon solid {{ category.class }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+<p>{{ post.date | date: '%B %d, %Y' }} | <a href="/about#about-{{ author.name | downcase | replace: ' ', '-' }}">{{ author.name }}</a><br />
+{{ post.excerpt | strip_html | strip_newlines | truncate: 250 }} <a href="{{ post.url }}">Read More›</a></p>
+{% endfor %}
+

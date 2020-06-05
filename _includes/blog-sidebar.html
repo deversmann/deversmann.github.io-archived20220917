@@ -1,0 +1,15 @@
+<!-- Sidebar -->
+<section>
+    <h3>Categories</h3>
+    <ul class="style2">
+        {% for c in site.category %}
+        <li style="padding-bottom: 2px;"><a class="button small icon solid {{ c.class }}" href="/blog/{{ c.tag }}">{{ c.tag }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h3>Tags</h3>
+    {% assign t = site.tags | sort %}
+    <p>{% for tag in t %}<a href="/blog/tags#{{ tag[0] }}">{{ tag[0] }}</a> {% endfor %}</p>
+</section>

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<div id="banner-wrapper">
+    <div id="banner" class="box container">
+        <div class="row">
+            <div class="col-7 col-12-medium">
+                <h2>Welcome to DamienLIVE</h2>
+                <p>The Writings, Ramblings, Speeches and Presentations of Damien Eversmann</p>
+            </div>
+            <div class="col-5 col-12-medium">
+                <ul>
+                    <li><a href="moshpit" class="button large icon solid fa-arrow-circle-right">Go to the MOSH>pit</a></li>
+                    <!--<li><a href="#" class="button alt large icon solid fa-question-circle">More info</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Features -->
+<div id="features-wrapper">
+    <div class="container">
+        <div class="row">
+            {% include frontpage-feature.html feature=page.feature1 %}
+            {% include frontpage-feature.html feature=page.feature2 %}
+            {% include frontpage-feature.html feature=page.feature3 %}
+        </div>
+    </div>
+</div>
+
+<!-- Main -->
+{% assign len = content | strip | size %}
+{% if len > 0 %}
+<div id="main-wrapper">
+    <div class="container">
+        {{ content }}
+    </div>
+</div>
+{% endif %}

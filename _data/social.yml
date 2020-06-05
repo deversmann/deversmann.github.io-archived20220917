@@ -1,0 +1,17 @@
+- name: Twitter
+  class: icon brands fa-twitter
+  link: https://twitter.com/DamienLive
+- name: LinkedIn
+  class: icon brands fa-linkedin
+  link: https://www.linkedin.com/in/eversmann
+- name: GitHub
+  class: icon brands fa-github
+  link: https://github.com/deversmann
+- name: YouTube
+  class: icon brands fa-youtube
+  link: https://www.youtube.com/channel/UCj6N-fth-U8H-PsD5VDyLMw
+- name: Contact
+  class: icon fa-envelope
+  link: /contact/
+  
+  
