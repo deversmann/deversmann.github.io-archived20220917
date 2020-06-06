@@ -11,8 +11,7 @@ This site is the resource for all things Damien.  You'll find collected within t
 {% for author in site.authors %}
 ### About {{ author.name }} 
 
-![{{ author.name }}]({{ author.headshot }}){: width="200px" .image .left}
-{{ author.content }}
+![{{ author.name }}]({{ author.headshot }}){: width="150px" .image .left} {{ author.content | remove: '<p>' | remove: '</p>' }}
 {% endfor %}
 
 #### Colophon
