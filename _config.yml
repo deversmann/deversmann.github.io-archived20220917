@@ -1,3 +1,14 @@
+title: Damien.LIVE
+email: damien@redhat.com
+description: >-
+  DamienLIVE is a place where you can find blog posts, videos, photos and more from the mind and heart of Damien Eversmann.
+baseurl: "/"
+url: "https://www.damien.live"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 permalink: /blog/:year/:title:output_ext
 

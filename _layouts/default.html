@@ -6,19 +6,21 @@
 -->
 <html>
   <head>
-    <title>Damien.LIVE</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    {%- seo -%}
     <link rel="stylesheet" href="/assets/css/styles.css" />
+    {%- feed_meta -%}
+    {%- include favicon-include.html -%}
   </head>
   <body class="is-preload homepage">
     <div id="page-wrapper">
 
-      {% include header.html %}
+      {%- include header.html -%}
 
       {{ content }}
 
-      {% include footer.html %}
+      {%- include footer.html -%}
 
     <!-- Scripts -->
 
