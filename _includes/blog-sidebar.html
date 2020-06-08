@@ -11,5 +11,10 @@
 <section>
     <h3>Tags</h3>
     {% assign t = site.tags | sort %}
-    <p>{% for tag in t %}<a href="/blog/tags#{{ tag[0] }}">{{ tag[0] }}</a> {% endfor %}</p>
+    <p>
+        {% for tag in t %}
+            {% assign em-size = tag[1] | size | plus: 9 | divided_by: 10.0 %}
+            <a href="/blog/tags#{{ tag[0] }}" style="font-size:{{ em-size }}em">{{ tag[0] }}</a> 
+        {% endfor %}
+    </p>
 </section>

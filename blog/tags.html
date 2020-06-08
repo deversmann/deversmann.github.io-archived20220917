@@ -5,7 +5,7 @@ layout: page
 <h2>Tags</h2>
 {% assign t = site.tags | sort %}
 {% for tag in t %}
-<h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+<h3 id="{{ tag[0] }}">{{ tag[0] }} ({{ tag[1] | size }})</h3>
 <ul>
     {% for post in tag[1] %}
         <li>{{ post.date | date: '%B %d, %Y' }}: 
