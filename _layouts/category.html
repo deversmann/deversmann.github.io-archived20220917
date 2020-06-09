@@ -1,8 +1,7 @@
 ---
 layout: blog
 ---
-
+<!-- Category Layout -->
 <h1>{{ page.tag | capitalize }}</h1>
 {% assign postlist=site.categories[page.tag] %}
 {% include postlist.html posts=postlist %}
-

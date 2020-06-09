@@ -1,29 +1,22 @@
 ---
 layout: default
 ---
-
-<!-- Main -->
+<!-- Blog Layout -->
 <div id="main-wrapper">
     <div class="container">
         <div class="row gtr-200">
             <div class="col-3 col-12-medium">
                 <div id="sidebar">
-
-                    {%include blog-sidebar.html %}
-
+                    {% include blog-sidebar.html %}
                 </div>
             </div>
             <div class="col-9 col-12-medium imp-medium">
                 <div id="content">
-
-                <!-- Content -->
-                <article>
-                {{ content }}
-                </article>
-
+                    <article>
+                        {{ content }}
+                    </article>
                </div>
             </div>
         </div>
     </div>
 </div>
-

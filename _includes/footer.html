@@ -1,49 +1,36 @@
 <!-- Footer -->
 <div id="footer-wrapper">
-  <footer id="footer" class="container">
-    <div class="row">
-      <div class="col-3 col-12-medium">
-
-        <!-- Links -->
-        <section class="widget links">
-          <h3>What Is This?</h3>
-          <p>DamienLIVE is a place where you can find blog posts, videos, photos and more from the mind and heart of
-            Damien Eversmann.</p>
-        </section>
-
-      </div>
-
-      <div class="col-6 col-12-medium">
-
-        {% include newsletter-footer.html %}
-
-      </div>
-
-      <div class="col-3 col-12-medium">
-
-        <!-- Contact -->
-        <section class="widget contact last">
-          <h3>Social Media</h3>
-          <ul>
-            {% for item in site.data.social %}
-            <li><a href="{{ item.link }}" class="{{ item.class }}"><span class="label">{{ item.name }}</span></a></li>
-            {% endfor %}
-          </ul>
-        </section>
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div id="copyright">
-          <ul class="menu">
-            <li>&copy; 2019-2020, Damien Eversmann. All rights reserved</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          </ul>
+    <footer id="footer" class="container">
+        <div class="row">
+            <div class="col-3 col-12-medium">
+                <section class="widget links">
+                    <h3>What Is This?</h3>
+                    <p>DamienLIVE is a place where you can find blog posts, videos, photos and more from the mind and heart of Damien Eversmann.</p>
+                </section>
+            </div>
+            <div class="col-6 col-12-medium">
+                {% include newsletter-footer.html %}
+            </div>
+            <div class="col-3 col-12-medium">
+                <section class="widget contact last">
+                    <h3>Social Media</h3>
+                    <ul>
+                        {% for item in site.data.social %}
+                        <li><a href="{{ item.link }}" class="{{ item.class }}"><span class="label">{{ item.name }}</span></a></li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
-</div>
-
+        <div class="row">
+            <div class="col-12">
+                <div id="copyright">
+                    <ul class="menu">
+                        <li>&copy; 2019-2020, Damien Eversmann. All rights reserved</li>
+                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>

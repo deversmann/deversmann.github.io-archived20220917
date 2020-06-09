@@ -2,6 +2,7 @@
 title: "Contact"
 permalink: /contact
 ---
+
 Complete the form below to send me a message.  If your email needs a response, I'll do my best to get back to you in a timely fashion.
 <form action="https://formspree.io/xwkoryeo" method="POST">
   <label>
@@ -20,8 +21,6 @@ Complete the form below to send me a message.  If your email needs a response, I
     Your message:
     <textarea name="message" placeholder="You're awesome!"></textarea>
   </label>
-
-  <!-- your other form fields go here -->
 
   <button type="submit">Send</button>
 </form>

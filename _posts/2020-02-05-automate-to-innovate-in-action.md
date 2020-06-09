@@ -15,5 +15,3 @@ Had a great meeting today with the System Admins at a state data center recently
 This is really an example of what I like to call “Automate to Innovate”.  The theory behind this is actually pretty simple.  Automate the repetitive tasks that your people do day in and day out and free them up to do the novel things that drive your business forward.  In the case of this data center, not only do the System Administrators benefit, so do their constituents who have access to their resources sooner and can rely on the repeatability of that provisioning in the future.
 
 This is just one piece of the DevOps movement that you’ll hear me talking about time and time again… and it is an easy way for any enterprise of any size to realize benefits and savings quickly and allow the employees, the real mind-share and assets of the organization, to innovate and contribute to their fullest.
-
-

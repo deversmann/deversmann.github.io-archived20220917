@@ -10,8 +10,11 @@
 - name: YouTube
   class: icon brands fa-youtube
   link: https://www.youtube.com/channel/UCj6N-fth-U8H-PsD5VDyLMw
-- name: Contact
-  class: icon fa-envelope
-  link: /contact
+- name: Feed
+  class: icon fa-rss
+  link: /feed.xml
+#- name: Contact
+#  class: icon fa-envelope
+#  link: /contact
   
   
