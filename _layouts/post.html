@@ -8,8 +8,27 @@ layout: page
 <p>
   {{ page.date | date: '%B %d, %Y' }} | 
   Posted by <a href="/about#about-{{ author.name | downcase | replace: ' ', '-' }}">{{ author.name }}</a> 
-  in {{ page.categories | sort | join: ', ' }} 
+  in {% for item in page.categories %}
+    {% assign c = site.category | where: 'tag', item | first %}  
+    <a class="button small icon solid {{ c.class }}" href="/blog/{{ c.tag }}">{{ c.tag }}</a> 
+  {% endfor %} 
   with tags: {% for item in page.tags %}<a href="/blog/tags#{{ item }}">{{ item }}</a>  {% else %}None{% endfor %}
 </p>
 
 {{ content }}
+
+<hr />
+<div class="row">
+  <div class="col-6 col-12-medium" style="text-align:right;">
+    {% if page.next.url %}
+      {% assign category = site.category | where: 'tag', page.next.categories[0] | first %}
+      <a  href="{{ page.next.url }}">&laquo; Newer</a><br /><a class="button small icon solid {{ category.class }}" href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% endif %}
+  </div>
+  <div class="col-6 col-12-medium">
+    {% if page.previous.url %}
+      {% assign category = site.category | where: 'tag', page.previous.categories[0] | first %}
+      <a href="{{ page.previous.url }}">Older &raquo;</a><br /><a class="button small icon solid {{ category.class }}" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% endif %}
+  </div>
+</div>
