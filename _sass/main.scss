@@ -462,18 +462,18 @@
 		}
 
 		&.alt {
-			background: #f1f1f1;
-			background: rgba(0, 0, 0, 0.05);
-			color: #444;
+			//background: #f1f1f1;
+			background: rgba(0, 0, 0, 0.65);//rgba(0, 0, 0, 0.05);
+			color: #fff;//color: #444;
 
 			&:hover {
-				background: #e8e8e8;
-				background: rgba(0, 0, 0, 0.085);
+				//background: #e8e8e8;
+				background: rgba(0, 0, 0, 0.55);//rgba(0, 0, 0, 0.085);
 			}
 
 			&:active {
-				background: #e4e4e4;
-				background: rgba(0, 0, 0, 0.15);
+				//background: #e4e4e4;
+				background: rgba(0, 0, 0, 0.45);//rgba(0, 0, 0, 0.15);
 			}
 		}
 
