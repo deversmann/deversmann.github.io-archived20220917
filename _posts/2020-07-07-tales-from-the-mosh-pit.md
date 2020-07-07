@@ -4,9 +4,12 @@ categories:
     - observations
 tags:
     - culture
+excerpt_separator: <!-- more -->
 ---
 
-So I've been doing this thing for 11 weeks now called [MOSH>pit](https://www.damien.live/moshpit) (you shoud check it out some Wednesday at Noon CT).  Essentially what it has turned out to be is a bit therapy session and a bit moderated-panel-type talk show.  For an hour I loosely guide an open conversation through the news of the week.  We keep it clean and try to tie everything back to tech in some manner.  It's a really good time and some of it has been cathartic for some people.  We don't shy away from deep issues!  So anyway, I thought I'd share some of the things we've talked about over the last couple of months.
+[![MOSH>pit](/moshpit/logo.png)](/moshpit)
+
+So I've been doing this thing for 11 weeks now called [MOSH>pit](https://www.damien.live/moshpit) (you shoud check it out some Wednesday at Noon CT).  Essentially what it has turned out to be is a bit therapy session and a bit moderated-panel-type talk show.  For an hour I loosely guide an open conversation through the news of the week.  We keep it clean and try to tie everything back to tech in some manner.  It's a really good time and some of it has been cathartic for some people.  We don't shy away from deep issues!  So anyway, I thought I'd share some of the things we've talked about over the last couple of months.<!-- more -->
 
 Back in May, we spent a little time talking about Microsoft's [admission](https://www.theverge.com/2020/5/18/21262103/microsoft-open-source-linux-history-wrong-statement) that it was historically on the wrong about open source.  Alot of people shared that they we relieved to see Microsoft taking part in OSS and indeed partnering with the likes of Red Hat on current projects. We also talked quite a bit about the news items (open source and otherwise) coming out of [Microsoft Build 2020](https://news.microsoft.com/build2020/).
 
