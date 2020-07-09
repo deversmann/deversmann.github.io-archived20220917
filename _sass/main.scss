@@ -58,7 +58,7 @@
 	}
 
 	blockquote,	q {
-		quotes: none;
+		//quotes: none;
 
 		&:before,
 		&:after {
@@ -207,9 +207,22 @@
 	}
 
 	blockquote {
-		border-left: solid 0.5em #eee;
+		border-left: solid 0.5em #ccc;
+		background: #eee;
+		margin: 1.5em 10px;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
+		//quotes: "\201C""\201D""\2018""\2019";
+
+		&:before {
+			color: #ccc;
+			content: "\201C";
+			font-family: "Oleo Script";
+			font-size: 4em;
+			line-height: 0.1em;
+			margin-right: 0.25em;
+			vertical-align: -0.4em;		  
+		}
 	}
 
 	p, ul, ol, dl, table {
