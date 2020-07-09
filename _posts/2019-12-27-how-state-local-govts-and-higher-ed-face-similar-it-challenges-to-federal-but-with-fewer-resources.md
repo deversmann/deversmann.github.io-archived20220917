@@ -21,5 +21,4 @@ tags:
 
 
 > And never mind that common refrain about automation taking jobs away.
-
-> "In IT, we already have people whose workloads are 150%-200% of what a normal workload should be," Eversmann said. "So automation isn't about laying people off and saving money that way. It's about enabling the workforce."
+"In IT, we already have people whose workloads are 150%-200% of what a normal workload should be," Eversmann said. "So automation isn't about laying people off and saving money that way. It's about enabling the workforce."
