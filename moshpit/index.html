@@ -27,10 +27,38 @@
 		hr {
 			width: 50%;
 		}
+
+		.overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0,0,0,0.5);
+			z-index: 10;
+		}
+		.modal {
+			width: 400px;
+			height: 200px;
+			position: fixed;
+			top: 50%; 
+			left: 50%;
+			margin-top: -100px;
+			margin-left: -200px;
+			padding-top: 75px;
+			background-color: #f1c40f;
+			border-radius: 5px;
+			text-align: center;
+			transform: rotate(-15deg);
+			z-index: 11; /* 1px higher than the overlay layer */
+		}
+
 	</style>
 </head>
 
 <body>
+	<div class="overlay"></div>
+	<div class="modal">ON HIATUS till<br />2020 AUG 05 at 12:00 CT</div>
 	<a href="join.html"><img src="logo.png" /></a>
 	<p>Social Distancing got you down? Missing the geeky chat from the workplace? Have we got a solution for you!</p>
 	<hr />
