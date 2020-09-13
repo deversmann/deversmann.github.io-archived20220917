@@ -4,7 +4,7 @@ permalink: /about
 ---
 
 {% for author in site.authors %}
-### About {{ author.name }} 
+### About {{ author.name }}, {{ author.position }} 
 
 ![{{ author.name }}]({{ author.headshot }}){: style="max-width:300px" .image .left} {{ author.content | remove: '<p>' | remove: '</p>' }}
 

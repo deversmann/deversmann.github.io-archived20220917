@@ -1,3 +1,6 @@
+@import 'tabbed.css';
+@import 'highlight.css';
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -6,6 +9,7 @@
 @import 'libs/html-grid';
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,400,400italic,600,600italic,800");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 /*
 	Verti by HTML5 UP
@@ -236,6 +240,10 @@
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+	}
+
+	code, figure {
+		font-family: 'Source Code Pro', monospace;
 	}
 
 /* Container */
