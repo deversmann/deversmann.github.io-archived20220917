@@ -7,36 +7,29 @@ permalink: /press-kit
 ### Biographies for Publication
 
 {% capture bio %}{% include damien-bio.md %}{% endcapture %}
-<div class="tabbed">
-    <input name="tabbed" id="tabbed1" type="radio" checked />
-    <section>
-        <h1>
-            <label for="tabbed1">Text</label>
-        </h1>
-        <div>
-            {{ bio | markdownify }}
-        </div>
-    </section>
-    <input name="tabbed" id="tabbed2" type="radio" />
-    <section>
-        <h1>
-            <label for="tabbed2">HTML</label>
-        </h1>
-        <div>
-            {% highlight html %}{{ bio | markdownify }}{% endhighlight %}
-        </div>
-    </section>
-    <input name="tabbed" id="tabbed3" type="radio" />
-    <section>
-        <h1>
-            <label for="tabbed3">Markdown</label>
-        </h1>
-        <div>
-            {% highlight md %}{{ bio }}{% endhighlight %}
-        </div>
-    </section>
-</div>  
+
+
+
+<div class="tabPanel-widget">
+    <label for="tab-1" tabindex="0"></label>
+    <input id="tab-1" type="radio" name="tabs" checked="true" aria-hidden="true">
+    <h2>Text</h2>
+    <div>{{ bio | markdownify }}</div>
+    <label for="tab-2" tabi ndex="0"></label>
+    <input id="tab-2" type="radio" name="tabs" aria-h idden="true">
+    <h2>HTML</h2>
+    <div>{% highlight html %}{{ bio | markdownify }}{% endhighlight %}</div>
+    <label for="tab-3" tabindex="0"></label>
+    <input id="tab-3" type="radio" name="tabs" aria-hidden="true">
+    <h2>Markdown</h2>
+    <div>{% highlight md %}{{ bio }}{% endhighlight %}</div>
+</div>
+
+
+
+
 <br class="clear" />  
+
 ### Photos for Publication
 
 
