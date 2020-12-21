@@ -21,6 +21,6 @@ Complete the form below to send me a message.  If your email needs a response, I
     Your message:
     <textarea name="message" placeholder="You're awesome!"></textarea>
   </label>
-
+  <div class="g-recaptcha" data-sitekey="6LfCVg8aAAAAAAd8finTI_kX2dMwpZ9iyjXfzzh6"></div>
   <button type="submit">Send</button>
 </form>
