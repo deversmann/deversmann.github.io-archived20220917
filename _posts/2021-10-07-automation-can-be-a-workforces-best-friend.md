@@ -1,14 +1,11 @@
 ---
-title: An Interview - How State, Local Govts and Higher Ed Face Similar IT Challenges to Federal, but with Fewer Resources
+title: An Interview - Automation can be a workforce's best friend
 categories:
     - publications
 tags:
     - culture
     - it-modernization
-    - digital-transformation
-    - public-sector
     - automation
-    - devops
 ---
 
 *I was interviewed for an article on Federal News Network.  The original can be found here: [Automation can be a workforce's best friend](https://federalnewsnetwork.com/open-first/2021/10/automation-can-be-a-workforces-best-friend/).  A few quotes follow, check out the link for the entire article:*
